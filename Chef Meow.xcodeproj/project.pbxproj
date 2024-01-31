@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C7A6AA82EF930F9A043C669 /* Pods_Chef_Meow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3948B48972CA21AA32620CF /* Pods_Chef_Meow.framework */; };
+		8D540D76CEA1077E909E71CD /* Pods_Chef_Meow_Chef_MeowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938045B574E30D46B87E5B7A /* Pods_Chef_Meow_Chef_MeowUITests.framework */; };
+		A91A58242A7B0FF000928381 /* topbar3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A91A58232A7B0FEF00928381 /* topbar3.JPG */; };
+		A91A58262A7B0FFA00928381 /* topbar4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A91A58252A7B0FFA00928381 /* topbar4.JPG */; };
+		A92767152AA16A2D00A92866 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92767142AA16A2D00A92866 /* TableViewController.swift */; };
+		A92767172AA16A3F00A92866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92767162AA16A3F00A92866 /* ViewController.swift */; };
+		A935A6762A7A229F00DE20C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935A6752A7A229F00DE20C6 /* AppDelegate.swift */; };
+		A935A6782A7A229F00DE20C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935A6772A7A229F00DE20C6 /* SceneDelegate.swift */; };
+		A935A67D2A7A229F00DE20C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A935A67B2A7A229F00DE20C6 /* Main.storyboard */; };
+		A935A67F2A7A22A100DE20C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A935A67E2A7A22A100DE20C6 /* Assets.xcassets */; };
+		A935A6822A7A22A100DE20C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A935A6802A7A22A100DE20C6 /* LaunchScreen.storyboard */; };
+		A935A68D2A7A22A200DE20C6 /* Chef_MeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935A68C2A7A22A200DE20C6 /* Chef_MeowTests.swift */; };
+		A935A6972A7A22A200DE20C6 /* Chef_MeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935A6962A7A22A200DE20C6 /* Chef_MeowUITests.swift */; };
+		A935A6992A7A22A200DE20C6 /* Chef_MeowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935A6982A7A22A200DE20C6 /* Chef_MeowUITestsLaunchTests.swift */; };
+		A935A6AC2A7A3DE900DE20C6 /* launch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A935A6AB2A7A3DE900DE20C6 /* launch@3x.png */; };
+		A944D3B12A9C60A500ED51FF /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A944D3B02A9C60A500ED51FF /* TabBar.storyboard */; };
+		A96B0D162AC027F6009C13C3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D152AC027F6009C13C3 /* Menu.swift */; };
+		A96B0D182AC02811009C13C3 /* MenuDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D172AC02811009C13C3 /* MenuDish.swift */; };
+		A96B0D1A2AC02820009C13C3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D192AC02820009C13C3 /* Order.swift */; };
+		A96B0D1C2AC02833009C13C3 /* OrderDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D1B2AC02833009C13C3 /* OrderDish.swift */; };
+		A96B0D202AC02925009C13C3 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D1F2AC02925009C13C3 /* CartViewController.swift */; };
+		A96B0D222AC0294B009C13C3 /* ChosenDishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D212AC0294B009C13C3 /* ChosenDishCell.swift */; };
+		A96B0D282AC029EE009C13C3 /* PreOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D272AC029EE009C13C3 /* PreOrderViewController.swift */; };
+		A96B0D2A2AC02A01009C13C3 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D292AC02A01009C13C3 /* DateCell.swift */; };
+		A96B0D2F2AC02A66009C13C3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D2E2AC02A66009C13C3 /* MainViewController.swift */; };
+		A96B0D312AC02AC0009C13C3 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D302AC02AC0009C13C3 /* CategoryCell.swift */; };
+		A96B0D332AC02AFB009C13C3 /* CourseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D322AC02AFB009C13C3 /* CourseDetailViewController.swift */; };
+		A96B0D372AC02B25009C13C3 /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D362AC02B25009C13C3 /* DishCell.swift */; };
+		A96B0D3A2AC02B55009C13C3 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D392AC02B55009C13C3 /* DishDetailViewController.swift */; };
+		A96B0D3D2AC02DCA009C13C3 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D3C2AC02DCA009C13C3 /* OrderViewController.swift */; };
+		A96B0D3F2AC02DD8009C13C3 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D3E2AC02DD8009C13C3 /* OrderCell.swift */; };
+		A96B0D422AC02E1E009C13C3 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D412AC02E1E009C13C3 /* TrackingViewController.swift */; };
+		A96B0D442AC02E45009C13C3 /* SimpleDishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0D432AC02E45009C13C3 /* SimpleDishCell.swift */; };
+		A97123CA2A9C099C00A2DD7C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97123C92A9C099C00A2DD7C /* LogInViewController.swift */; };
+		A97123CC2A9C09FD00A2DD7C /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97123CB2A9C09FD00A2DD7C /* LobbyViewController.swift */; };
+		A97123CE2A9C0A1800A2DD7C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97123CD2A9C0A1800A2DD7C /* SignUpViewController.swift */; };
+		A97123D42A9C1C3200A2DD7C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97123D32A9C1C3200A2DD7C /* Utilities.swift */; };
+		A97123D72A9C1D0000A2DD7C /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97123D62A9C1D0000A2DD7C /* AllViewController.swift */; };
+		A97123D92A9C1D9800A2DD7C /* hideKeyBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97123D82A9C1D9800A2DD7C /* hideKeyBoardExtension.swift */; };
+		A98F0C972AC026EC00EF95B9 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F0C962AC026EC00EF95B9 /* Fetch.swift */; };
+		A98F0C992AC0276300EF95B9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F0C982AC0276300EF95B9 /* CollectionViewController.swift */; };
+		A99F565D2AC133CA007695DB /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99F565C2AC133CA007695DB /* Menu.storyboard */; };
+		A99F56612AC13A8B007695DB /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99F56602AC13A8B007695DB /* Cart.storyboard */; };
+		A99F56652AC1581D007695DB /* ChosenDishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99F56642AC1581D007695DB /* ChosenDishCell.xib */; };
+		A99F56672AC15841007695DB /* DishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99F56662AC15841007695DB /* DishCell.xib */; };
+		A9A6DC322AD6013B00F23026 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC312AD6013B00F23026 /* FirebaseAnalytics */; };
+		A9A6DC342AD6013B00F23026 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC332AD6013B00F23026 /* FirebaseAnalyticsOnDeviceConversion */; };
+		A9A6DC362AD6013B00F23026 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC352AD6013B00F23026 /* FirebaseAnalyticsSwift */; };
+		A9A6DC382AD6013B00F23026 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC372AD6013B00F23026 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A9A6DC3A2AD6013B00F23026 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC392AD6013B00F23026 /* FirebaseAppCheck */; };
+		A9A6DC3C2AD6013B00F23026 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC3B2AD6013B00F23026 /* FirebaseAppDistribution-Beta */; };
+		A9A6DC3E2AD6013B00F23026 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC3D2AD6013B00F23026 /* FirebaseAuth */; };
+		A9A6DC402AD6013B00F23026 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC3F2AD6013B00F23026 /* FirebaseAuthCombine-Community */; };
+		A9A6DC422AD6013B00F23026 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC412AD6013B00F23026 /* FirebaseCrashlytics */; };
+		A9A6DC442AD6013B00F23026 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC432AD6013B00F23026 /* FirebaseDatabase */; };
+		A9A6DC462AD6013B00F23026 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC452AD6013B00F23026 /* FirebaseDatabaseSwift */; };
+		A9A6DC482AD6013B00F23026 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC472AD6013B00F23026 /* FirebaseDynamicLinks */; };
+		A9A6DC4A2AD6013B00F23026 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC492AD6013B00F23026 /* FirebaseFirestore */; };
+		A9A6DC4C2AD6013B00F23026 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC4B2AD6013B00F23026 /* FirebaseFirestoreCombine-Community */; };
+		A9A6DC4E2AD6013B00F23026 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC4D2AD6013B00F23026 /* FirebaseFirestoreSwift */; };
+		A9A6DC502AD6013B00F23026 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC4F2AD6013B00F23026 /* FirebaseFunctions */; };
+		A9A6DC522AD6013B00F23026 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC512AD6013B00F23026 /* FirebaseFunctionsCombine-Community */; };
+		A9A6DC542AD6013B00F23026 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC532AD6013B00F23026 /* FirebaseInAppMessaging-Beta */; };
+		A9A6DC562AD6013B00F23026 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC552AD6013B00F23026 /* FirebaseInAppMessagingSwift-Beta */; };
+		A9A6DC582AD6013B00F23026 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC572AD6013B00F23026 /* FirebaseInstallations */; };
+		A9A6DC5A2AD6013B00F23026 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC592AD6013B00F23026 /* FirebaseMLModelDownloader */; };
+		A9A6DC5C2AD6013B00F23026 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC5B2AD6013B00F23026 /* FirebaseMessaging */; };
+		A9A6DC5E2AD6013B00F23026 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC5D2AD6013B00F23026 /* FirebasePerformance */; };
+		A9A6DC602AD6013B00F23026 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC5F2AD6013B00F23026 /* FirebaseRemoteConfig */; };
+		A9A6DC622AD6013B00F23026 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC612AD6013B00F23026 /* FirebaseRemoteConfigSwift */; };
+		A9A6DC642AD6013B00F23026 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC632AD6013B00F23026 /* FirebaseStorage */; };
+		A9A6DC662AD6013B00F23026 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A9A6DC652AD6013B00F23026 /* FirebaseStorageCombine-Community */; };
+		B5325AEEE6960376CA573F9C /* Pods_Chef_MeowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED019A5AC56A25E92C2DFD0 /* Pods_Chef_MeowTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A935A6892A7A22A200DE20C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A935A66A2A7A229F00DE20C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A935A6712A7A229F00DE20C6;
+			remoteInfo = "Chef Meow";
+		};
+		A935A6932A7A22A200DE20C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A935A66A2A7A229F00DE20C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A935A6712A7A229F00DE20C6;
+			remoteInfo = "Chef Meow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D186738492B1E4B08ACC680 /* Pods-Chef Meow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef Meow.debug.xcconfig"; path = "Target Support Files/Pods-Chef Meow/Pods-Chef Meow.debug.xcconfig"; sourceTree = "<group>"; };
+		17659296B557D5593393928B /* Pods-Chef Meow-Chef MeowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef Meow-Chef MeowUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chef Meow-Chef MeowUITests/Pods-Chef Meow-Chef MeowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46ABFA05FF88E22AA342CD86 /* Pods-Chef MeowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef MeowTests.release.xcconfig"; path = "Target Support Files/Pods-Chef MeowTests/Pods-Chef MeowTests.release.xcconfig"; sourceTree = "<group>"; };
+		6ED019A5AC56A25E92C2DFD0 /* Pods_Chef_MeowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef_MeowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D3FE774DB0C5C774D7A81A /* Pods-Chef MeowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef MeowTests.debug.xcconfig"; path = "Target Support Files/Pods-Chef MeowTests/Pods-Chef MeowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		938045B574E30D46B87E5B7A /* Pods_Chef_Meow_Chef_MeowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef_Meow_Chef_MeowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91A58232A7B0FEF00928381 /* topbar3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topbar3.JPG; sourceTree = "<group>"; };
+		A91A58252A7B0FFA00928381 /* topbar4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topbar4.JPG; sourceTree = "<group>"; };
+		A92767142AA16A2D00A92866 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A92767162AA16A3F00A92866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A935A6722A7A229F00DE20C6 /* Chef Meow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chef Meow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A935A6752A7A229F00DE20C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A935A6772A7A229F00DE20C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A935A67C2A7A229F00DE20C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A935A67E2A7A22A100DE20C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A935A6812A7A22A100DE20C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A935A6832A7A22A100DE20C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A935A6882A7A22A200DE20C6 /* Chef MeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chef MeowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A935A68C2A7A22A200DE20C6 /* Chef_MeowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef_MeowTests.swift; sourceTree = "<group>"; };
+		A935A6922A7A22A200DE20C6 /* Chef MeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chef MeowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A935A6962A7A22A200DE20C6 /* Chef_MeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef_MeowUITests.swift; sourceTree = "<group>"; };
+		A935A6982A7A22A200DE20C6 /* Chef_MeowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef_MeowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A935A6AB2A7A3DE900DE20C6 /* launch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@3x.png"; sourceTree = "<group>"; };
+		A944D3B02A9C60A500ED51FF /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		A96B0D152AC027F6009C13C3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A96B0D172AC02811009C13C3 /* MenuDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDish.swift; sourceTree = "<group>"; };
+		A96B0D192AC02820009C13C3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A96B0D1B2AC02833009C13C3 /* OrderDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDish.swift; sourceTree = "<group>"; };
+		A96B0D1F2AC02925009C13C3 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A96B0D212AC0294B009C13C3 /* ChosenDishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenDishCell.swift; sourceTree = "<group>"; };
+		A96B0D272AC029EE009C13C3 /* PreOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderViewController.swift; sourceTree = "<group>"; };
+		A96B0D292AC02A01009C13C3 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		A96B0D2E2AC02A66009C13C3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A96B0D302AC02AC0009C13C3 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		A96B0D322AC02AFB009C13C3 /* CourseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewController.swift; sourceTree = "<group>"; };
+		A96B0D362AC02B25009C13C3 /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
+		A96B0D392AC02B55009C13C3 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
+		A96B0D3C2AC02DCA009C13C3 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		A96B0D3E2AC02DD8009C13C3 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		A96B0D412AC02E1E009C13C3 /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		A96B0D432AC02E45009C13C3 /* SimpleDishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDishCell.swift; sourceTree = "<group>"; };
+		A97123C92A9C099C00A2DD7C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A97123CB2A9C09FD00A2DD7C /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		A97123CD2A9C0A1800A2DD7C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A97123D32A9C1C3200A2DD7C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A97123D62A9C1D0000A2DD7C /* AllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		A97123D82A9C1D9800A2DD7C /* hideKeyBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hideKeyBoardExtension.swift; sourceTree = "<group>"; };
+		A98F0C962AC026EC00EF95B9 /* Fetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		A98F0C982AC0276300EF95B9 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		A99F565C2AC133CA007695DB /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		A99F56602AC13A8B007695DB /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		A99F56642AC1581D007695DB /* ChosenDishCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChosenDishCell.xib; sourceTree = "<group>"; };
+		A99F56662AC15841007695DB /* DishCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishCell.xib; sourceTree = "<group>"; };
+		B3948B48972CA21AA32620CF /* Pods_Chef_Meow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chef_Meow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B586E6D6A9345B4134CAE631 /* Pods-Chef Meow-Chef MeowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef Meow-Chef MeowUITests.release.xcconfig"; path = "Target Support Files/Pods-Chef Meow-Chef MeowUITests/Pods-Chef Meow-Chef MeowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5EFB42292091A753418D04D /* Pods-Chef Meow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chef Meow.release.xcconfig"; path = "Target Support Files/Pods-Chef Meow/Pods-Chef Meow.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A935A66F2A7A229F00DE20C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A6DC502AD6013B00F23026 /* FirebaseFunctions in Frameworks */,
+				A9A6DC462AD6013B00F23026 /* FirebaseDatabaseSwift in Frameworks */,
+				A9A6DC562AD6013B00F23026 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				A9A6DC5C2AD6013B00F23026 /* FirebaseMessaging in Frameworks */,
+				A9A6DC3C2AD6013B00F23026 /* FirebaseAppDistribution-Beta in Frameworks */,
+				A9A6DC402AD6013B00F23026 /* FirebaseAuthCombine-Community in Frameworks */,
+				A9A6DC4C2AD6013B00F23026 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				A9A6DC362AD6013B00F23026 /* FirebaseAnalyticsSwift in Frameworks */,
+				A9A6DC5A2AD6013B00F23026 /* FirebaseMLModelDownloader in Frameworks */,
+				A9A6DC382AD6013B00F23026 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				A9A6DC322AD6013B00F23026 /* FirebaseAnalytics in Frameworks */,
+				A9A6DC4E2AD6013B00F23026 /* FirebaseFirestoreSwift in Frameworks */,
+				A9A6DC342AD6013B00F23026 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				A9A6DC3A2AD6013B00F23026 /* FirebaseAppCheck in Frameworks */,
+				A9A6DC5E2AD6013B00F23026 /* FirebasePerformance in Frameworks */,
+				A9A6DC542AD6013B00F23026 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				A9A6DC522AD6013B00F23026 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				A9A6DC422AD6013B00F23026 /* FirebaseCrashlytics in Frameworks */,
+				A9A6DC582AD6013B00F23026 /* FirebaseInstallations in Frameworks */,
+				A9A6DC602AD6013B00F23026 /* FirebaseRemoteConfig in Frameworks */,
+				A9A6DC642AD6013B00F23026 /* FirebaseStorage in Frameworks */,
+				A9A6DC442AD6013B00F23026 /* FirebaseDatabase in Frameworks */,
+				A9A6DC662AD6013B00F23026 /* FirebaseStorageCombine-Community in Frameworks */,
+				8C7A6AA82EF930F9A043C669 /* Pods_Chef_Meow.framework in Frameworks */,
+				A9A6DC3E2AD6013B00F23026 /* FirebaseAuth in Frameworks */,
+				A9A6DC482AD6013B00F23026 /* FirebaseDynamicLinks in Frameworks */,
+				A9A6DC4A2AD6013B00F23026 /* FirebaseFirestore in Frameworks */,
+				A9A6DC622AD6013B00F23026 /* FirebaseRemoteConfigSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A935A6852A7A22A200DE20C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5325AEEE6960376CA573F9C /* Pods_Chef_MeowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A935A68F2A7A22A200DE20C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D540D76CEA1077E909E71CD /* Pods_Chef_Meow_Chef_MeowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92767132AA169E800A92866 /* View Controller Template */ = {
+			isa = PBXGroup;
+			children = (
+				A92767142AA16A2D00A92866 /* TableViewController.swift */,
+				A92767162AA16A3F00A92866 /* ViewController.swift */,
+				A98F0C982AC0276300EF95B9 /* CollectionViewController.swift */,
+			);
+			path = "View Controller Template";
+			sourceTree = "<group>";
+		};
+		A935A6692A7A229F00DE20C6 = {
+			isa = PBXGroup;
+			children = (
+				A935A6742A7A229F00DE20C6 /* Chef Meow */,
+				A935A68B2A7A22A200DE20C6 /* Chef MeowTests */,
+				A935A6952A7A22A200DE20C6 /* Chef MeowUITests */,
+				A935A6732A7A229F00DE20C6 /* Products */,
+				ADDEFAF9D497E4696FBEE6E4 /* Pods */,
+				E2ABA8A098F4F63AAC94D5AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A935A6732A7A229F00DE20C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A935A6722A7A229F00DE20C6 /* Chef Meow.app */,
+				A935A6882A7A22A200DE20C6 /* Chef MeowTests.xctest */,
+				A935A6922A7A22A200DE20C6 /* Chef MeowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A935A6742A7A229F00DE20C6 /* Chef Meow */ = {
+			isa = PBXGroup;
+			children = (
+				A935A6752A7A229F00DE20C6 /* AppDelegate.swift */,
+				A935A6772A7A229F00DE20C6 /* SceneDelegate.swift */,
+				A97123D02A9C1BDA00A2DD7C /* Support */,
+				A98F0C9A2AC027B900EF95B9 /* Variables */,
+				A97123C52A9C079000A2DD7C /* ViewController */,
+				A97123CF2A9C0A5C00A2DD7C /* Storyboard */,
+				A935A67E2A7A22A100DE20C6 /* Assets.xcassets */,
+				A935A6802A7A22A100DE20C6 /* LaunchScreen.storyboard */,
+				A91A58252A7B0FFA00928381 /* topbar4.JPG */,
+				A91A58232A7B0FEF00928381 /* topbar3.JPG */,
+				A935A6AB2A7A3DE900DE20C6 /* launch@3x.png */,
+				A935A6832A7A22A100DE20C6 /* Info.plist */,
+			);
+			path = "Chef Meow";
+			sourceTree = "<group>";
+		};
+		A935A68B2A7A22A200DE20C6 /* Chef MeowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A935A68C2A7A22A200DE20C6 /* Chef_MeowTests.swift */,
+			);
+			path = "Chef MeowTests";
+			sourceTree = "<group>";
+		};
+		A935A6952A7A22A200DE20C6 /* Chef MeowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A935A6962A7A22A200DE20C6 /* Chef_MeowUITests.swift */,
+				A935A6982A7A22A200DE20C6 /* Chef_MeowUITestsLaunchTests.swift */,
+			);
+			path = "Chef MeowUITests";
+			sourceTree = "<group>";
+		};
+		A96B0D1D2AC028E2009C13C3 /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D1F2AC02925009C13C3 /* CartViewController.swift */,
+				A96B0D212AC0294B009C13C3 /* ChosenDishCell.swift */,
+				A99F56642AC1581D007695DB /* ChosenDishCell.xib */,
+				A96B0D3B2AC02DA2009C13C3 /* OrderViewController */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+		A96B0D1E2AC028F4009C13C3 /* MenuViewControlleer */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D252AC029B4009C13C3 /* PreOrderViewController */,
+				A96B0D262AC029C3009C13C3 /* MainViewController */,
+			);
+			path = MenuViewControlleer;
+			sourceTree = "<group>";
+		};
+		A96B0D252AC029B4009C13C3 /* PreOrderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D272AC029EE009C13C3 /* PreOrderViewController.swift */,
+				A96B0D292AC02A01009C13C3 /* DateCell.swift */,
+			);
+			path = PreOrderViewController;
+			sourceTree = "<group>";
+		};
+		A96B0D262AC029C3009C13C3 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D2E2AC02A66009C13C3 /* MainViewController.swift */,
+				A96B0D302AC02AC0009C13C3 /* CategoryCell.swift */,
+				A96B0D2B2AC02A2D009C13C3 /* CourseViewController */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		A96B0D2B2AC02A2D009C13C3 /* CourseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D322AC02AFB009C13C3 /* CourseDetailViewController.swift */,
+				A96B0D362AC02B25009C13C3 /* DishCell.swift */,
+				A99F56662AC15841007695DB /* DishCell.xib */,
+				A96B0D382AC02B2D009C13C3 /* DishDerailViewController */,
+			);
+			path = CourseViewController;
+			sourceTree = "<group>";
+		};
+		A96B0D382AC02B2D009C13C3 /* DishDerailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D392AC02B55009C13C3 /* DishDetailViewController.swift */,
+			);
+			path = DishDerailViewController;
+			sourceTree = "<group>";
+		};
+		A96B0D3B2AC02DA2009C13C3 /* OrderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D3C2AC02DCA009C13C3 /* OrderViewController.swift */,
+				A96B0D3E2AC02DD8009C13C3 /* OrderCell.swift */,
+				A96B0D402AC02DFA009C13C3 /* TrackingViewController */,
+			);
+			path = OrderViewController;
+			sourceTree = "<group>";
+		};
+		A96B0D402AC02DFA009C13C3 /* TrackingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D412AC02E1E009C13C3 /* TrackingViewController.swift */,
+				A96B0D432AC02E45009C13C3 /* SimpleDishCell.swift */,
+			);
+			path = TrackingViewController;
+			sourceTree = "<group>";
+		};
+		A97123C52A9C079000A2DD7C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A97123C62A9C083F00A2DD7C /* Authentication */,
+				A97123D52A9C1CB500A2DD7C /* AllViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A97123C62A9C083F00A2DD7C /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A97123CB2A9C09FD00A2DD7C /* LobbyViewController.swift */,
+				A97123C92A9C099C00A2DD7C /* LogInViewController.swift */,
+				A97123CD2A9C0A1800A2DD7C /* SignUpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A97123CF2A9C0A5C00A2DD7C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A935A67B2A7A229F00DE20C6 /* Main.storyboard */,
+				A944D3B02A9C60A500ED51FF /* TabBar.storyboard */,
+				A99F565C2AC133CA007695DB /* Menu.storyboard */,
+				A99F56602AC13A8B007695DB /* Cart.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A97123D02A9C1BDA00A2DD7C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A92767132AA169E800A92866 /* View Controller Template */,
+				A97123D32A9C1C3200A2DD7C /* Utilities.swift */,
+				A97123D82A9C1D9800A2DD7C /* hideKeyBoardExtension.swift */,
+				A98F0C962AC026EC00EF95B9 /* Fetch.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A97123D52A9C1CB500A2DD7C /* AllViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A97123D62A9C1D0000A2DD7C /* AllViewController.swift */,
+				A96B0D1D2AC028E2009C13C3 /* CartViewController */,
+				A96B0D1E2AC028F4009C13C3 /* MenuViewControlleer */,
+			);
+			path = AllViewController;
+			sourceTree = "<group>";
+		};
+		A98F0C9A2AC027B900EF95B9 /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0D152AC027F6009C13C3 /* Menu.swift */,
+				A96B0D172AC02811009C13C3 /* MenuDish.swift */,
+				A96B0D192AC02820009C13C3 /* Order.swift */,
+				A96B0D1B2AC02833009C13C3 /* OrderDish.swift */,
+			);
+			path = Variables;
+			sourceTree = "<group>";
+		};
+		ADDEFAF9D497E4696FBEE6E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D186738492B1E4B08ACC680 /* Pods-Chef Meow.debug.xcconfig */,
+				B5EFB42292091A753418D04D /* Pods-Chef Meow.release.xcconfig */,
+				17659296B557D5593393928B /* Pods-Chef Meow-Chef MeowUITests.debug.xcconfig */,
+				B586E6D6A9345B4134CAE631 /* Pods-Chef Meow-Chef MeowUITests.release.xcconfig */,
+				87D3FE774DB0C5C774D7A81A /* Pods-Chef MeowTests.debug.xcconfig */,
+				46ABFA05FF88E22AA342CD86 /* Pods-Chef MeowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2ABA8A098F4F63AAC94D5AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3948B48972CA21AA32620CF /* Pods_Chef_Meow.framework */,
+				938045B574E30D46B87E5B7A /* Pods_Chef_Meow_Chef_MeowUITests.framework */,
+				6ED019A5AC56A25E92C2DFD0 /* Pods_Chef_MeowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A935A6712A7A229F00DE20C6 /* Chef Meow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A935A69C2A7A22A200DE20C6 /* Build configuration list for PBXNativeTarget "Chef Meow" */;
+			buildPhases = (
+				12658E22800C0410E4DB060A /* [CP] Check Pods Manifest.lock */,
+				A935A66E2A7A229F00DE20C6 /* Sources */,
+				A935A66F2A7A229F00DE20C6 /* Frameworks */,
+				A935A6702A7A229F00DE20C6 /* Resources */,
+				5309801F61FEF1F2A67D0D67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chef Meow";
+			packageProductDependencies = (
+				A9A6DC312AD6013B00F23026 /* FirebaseAnalytics */,
+				A9A6DC332AD6013B00F23026 /* FirebaseAnalyticsOnDeviceConversion */,
+				A9A6DC352AD6013B00F23026 /* FirebaseAnalyticsSwift */,
+				A9A6DC372AD6013B00F23026 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A9A6DC392AD6013B00F23026 /* FirebaseAppCheck */,
+				A9A6DC3B2AD6013B00F23026 /* FirebaseAppDistribution-Beta */,
+				A9A6DC3D2AD6013B00F23026 /* FirebaseAuth */,
+				A9A6DC3F2AD6013B00F23026 /* FirebaseAuthCombine-Community */,
+				A9A6DC412AD6013B00F23026 /* FirebaseCrashlytics */,
+				A9A6DC432AD6013B00F23026 /* FirebaseDatabase */,
+				A9A6DC452AD6013B00F23026 /* FirebaseDatabaseSwift */,
+				A9A6DC472AD6013B00F23026 /* FirebaseDynamicLinks */,
+				A9A6DC492AD6013B00F23026 /* FirebaseFirestore */,
+				A9A6DC4B2AD6013B00F23026 /* FirebaseFirestoreCombine-Community */,
+				A9A6DC4D2AD6013B00F23026 /* FirebaseFirestoreSwift */,
+				A9A6DC4F2AD6013B00F23026 /* FirebaseFunctions */,
+				A9A6DC512AD6013B00F23026 /* FirebaseFunctionsCombine-Community */,
+				A9A6DC532AD6013B00F23026 /* FirebaseInAppMessaging-Beta */,
+				A9A6DC552AD6013B00F23026 /* FirebaseInAppMessagingSwift-Beta */,
+				A9A6DC572AD6013B00F23026 /* FirebaseInstallations */,
+				A9A6DC592AD6013B00F23026 /* FirebaseMLModelDownloader */,
+				A9A6DC5B2AD6013B00F23026 /* FirebaseMessaging */,
+				A9A6DC5D2AD6013B00F23026 /* FirebasePerformance */,
+				A9A6DC5F2AD6013B00F23026 /* FirebaseRemoteConfig */,
+				A9A6DC612AD6013B00F23026 /* FirebaseRemoteConfigSwift */,
+				A9A6DC632AD6013B00F23026 /* FirebaseStorage */,
+				A9A6DC652AD6013B00F23026 /* FirebaseStorageCombine-Community */,
+			);
+			productName = "Chef Meow";
+			productReference = A935A6722A7A229F00DE20C6 /* Chef Meow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A935A6872A7A22A200DE20C6 /* Chef MeowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A935A69F2A7A22A200DE20C6 /* Build configuration list for PBXNativeTarget "Chef MeowTests" */;
+			buildPhases = (
+				4F8AD4F99C4A42B582BA5BB2 /* [CP] Check Pods Manifest.lock */,
+				A935A6842A7A22A200DE20C6 /* Sources */,
+				A935A6852A7A22A200DE20C6 /* Frameworks */,
+				A935A6862A7A22A200DE20C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A935A68A2A7A22A200DE20C6 /* PBXTargetDependency */,
+			);
+			name = "Chef MeowTests";
+			productName = "Chef MeowTests";
+			productReference = A935A6882A7A22A200DE20C6 /* Chef MeowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A935A6912A7A22A200DE20C6 /* Chef MeowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A935A6A22A7A22A200DE20C6 /* Build configuration list for PBXNativeTarget "Chef MeowUITests" */;
+			buildPhases = (
+				C68D484F7EF176CA55785781 /* [CP] Check Pods Manifest.lock */,
+				A935A68E2A7A22A200DE20C6 /* Sources */,
+				A935A68F2A7A22A200DE20C6 /* Frameworks */,
+				A935A6902A7A22A200DE20C6 /* Resources */,
+				6F55B64570282CCD5EAFBB15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A935A6942A7A22A200DE20C6 /* PBXTargetDependency */,
+			);
+			name = "Chef MeowUITests";
+			productName = "Chef MeowUITests";
+			productReference = A935A6922A7A22A200DE20C6 /* Chef MeowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A935A66A2A7A229F00DE20C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A935A6712A7A229F00DE20C6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A935A6872A7A22A200DE20C6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A935A6712A7A229F00DE20C6;
+					};
+					A935A6912A7A22A200DE20C6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A935A6712A7A229F00DE20C6;
+					};
+				};
+			};
+			buildConfigurationList = A935A66D2A7A229F00DE20C6 /* Build configuration list for PBXProject "Chef Meow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A935A6692A7A229F00DE20C6;
+			packageReferences = (
+				A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A935A6732A7A229F00DE20C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A935A6712A7A229F00DE20C6 /* Chef Meow */,
+				A935A6872A7A22A200DE20C6 /* Chef MeowTests */,
+				A935A6912A7A22A200DE20C6 /* Chef MeowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A935A6702A7A229F00DE20C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935A6822A7A22A100DE20C6 /* LaunchScreen.storyboard in Resources */,
+				A91A58242A7B0FF000928381 /* topbar3.JPG in Resources */,
+				A99F56612AC13A8B007695DB /* Cart.storyboard in Resources */,
+				A935A6AC2A7A3DE900DE20C6 /* launch@3x.png in Resources */,
+				A935A67F2A7A22A100DE20C6 /* Assets.xcassets in Resources */,
+				A99F565D2AC133CA007695DB /* Menu.storyboard in Resources */,
+				A935A67D2A7A229F00DE20C6 /* Main.storyboard in Resources */,
+				A944D3B12A9C60A500ED51FF /* TabBar.storyboard in Resources */,
+				A99F56672AC15841007695DB /* DishCell.xib in Resources */,
+				A91A58262A7B0FFA00928381 /* topbar4.JPG in Resources */,
+				A99F56652AC1581D007695DB /* ChosenDishCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A935A6862A7A22A200DE20C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A935A6902A7A22A200DE20C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12658E22800C0410E4DB060A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chef Meow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8AD4F99C4A42B582BA5BB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chef MeowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5309801F61FEF1F2A67D0D67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chef Meow/Pods-Chef Meow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chef Meow/Pods-Chef Meow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chef Meow/Pods-Chef Meow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F55B64570282CCD5EAFBB15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chef Meow-Chef MeowUITests/Pods-Chef Meow-Chef MeowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chef Meow-Chef MeowUITests/Pods-Chef Meow-Chef MeowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chef Meow-Chef MeowUITests/Pods-Chef Meow-Chef MeowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68D484F7EF176CA55785781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chef Meow-Chef MeowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A935A66E2A7A229F00DE20C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96B0D312AC02AC0009C13C3 /* CategoryCell.swift in Sources */,
+				A96B0D182AC02811009C13C3 /* MenuDish.swift in Sources */,
+				A96B0D2F2AC02A66009C13C3 /* MainViewController.swift in Sources */,
+				A98F0C992AC0276300EF95B9 /* CollectionViewController.swift in Sources */,
+				A96B0D332AC02AFB009C13C3 /* CourseDetailViewController.swift in Sources */,
+				A96B0D1A2AC02820009C13C3 /* Order.swift in Sources */,
+				A98F0C972AC026EC00EF95B9 /* Fetch.swift in Sources */,
+				A96B0D222AC0294B009C13C3 /* ChosenDishCell.swift in Sources */,
+				A96B0D162AC027F6009C13C3 /* Menu.swift in Sources */,
+				A96B0D422AC02E1E009C13C3 /* TrackingViewController.swift in Sources */,
+				A97123CE2A9C0A1800A2DD7C /* SignUpViewController.swift in Sources */,
+				A96B0D3A2AC02B55009C13C3 /* DishDetailViewController.swift in Sources */,
+				A97123D92A9C1D9800A2DD7C /* hideKeyBoardExtension.swift in Sources */,
+				A96B0D282AC029EE009C13C3 /* PreOrderViewController.swift in Sources */,
+				A96B0D3F2AC02DD8009C13C3 /* OrderCell.swift in Sources */,
+				A92767152AA16A2D00A92866 /* TableViewController.swift in Sources */,
+				A92767172AA16A3F00A92866 /* ViewController.swift in Sources */,
+				A96B0D3D2AC02DCA009C13C3 /* OrderViewController.swift in Sources */,
+				A96B0D442AC02E45009C13C3 /* SimpleDishCell.swift in Sources */,
+				A97123D72A9C1D0000A2DD7C /* AllViewController.swift in Sources */,
+				A97123D42A9C1C3200A2DD7C /* Utilities.swift in Sources */,
+				A97123CC2A9C09FD00A2DD7C /* LobbyViewController.swift in Sources */,
+				A96B0D1C2AC02833009C13C3 /* OrderDish.swift in Sources */,
+				A96B0D2A2AC02A01009C13C3 /* DateCell.swift in Sources */,
+				A97123CA2A9C099C00A2DD7C /* LogInViewController.swift in Sources */,
+				A935A6762A7A229F00DE20C6 /* AppDelegate.swift in Sources */,
+				A96B0D372AC02B25009C13C3 /* DishCell.swift in Sources */,
+				A96B0D202AC02925009C13C3 /* CartViewController.swift in Sources */,
+				A935A6782A7A229F00DE20C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A935A6842A7A22A200DE20C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935A68D2A7A22A200DE20C6 /* Chef_MeowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A935A68E2A7A22A200DE20C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935A6992A7A22A200DE20C6 /* Chef_MeowUITestsLaunchTests.swift in Sources */,
+				A935A6972A7A22A200DE20C6 /* Chef_MeowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A935A68A2A7A22A200DE20C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A935A6712A7A229F00DE20C6 /* Chef Meow */;
+			targetProxy = A935A6892A7A22A200DE20C6 /* PBXContainerItemProxy */;
+		};
+		A935A6942A7A22A200DE20C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A935A6712A7A229F00DE20C6 /* Chef Meow */;
+			targetProxy = A935A6932A7A22A200DE20C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A935A67B2A7A229F00DE20C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A935A67C2A7A229F00DE20C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A935A6802A7A22A100DE20C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A935A6812A7A22A100DE20C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A935A69A2A7A22A200DE20C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A935A69B2A7A22A200DE20C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A935A69D2A7A22A200DE20C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D186738492B1E4B08ACC680 /* Pods-Chef Meow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chef Meow/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Meow-Lin.Chef-Meow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A935A69E2A7A22A200DE20C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EFB42292091A753418D04D /* Pods-Chef Meow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chef Meow/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Meow-Lin.Chef-Meow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A935A6A02A7A22A200DE20C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D3FE774DB0C5C774D7A81A /* Pods-Chef MeowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Meow-Lin.Chef-MeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chef Meow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chef Meow";
+			};
+			name = Debug;
+		};
+		A935A6A12A7A22A200DE20C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46ABFA05FF88E22AA342CD86 /* Pods-Chef MeowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Meow-Lin.Chef-MeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chef Meow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chef Meow";
+			};
+			name = Release;
+		};
+		A935A6A32A7A22A200DE20C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17659296B557D5593393928B /* Pods-Chef Meow-Chef MeowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Meow-Lin.Chef-MeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chef Meow";
+			};
+			name = Debug;
+		};
+		A935A6A42A7A22A200DE20C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B586E6D6A9345B4134CAE631 /* Pods-Chef Meow-Chef MeowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Meow-Lin.Chef-MeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chef Meow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A935A66D2A7A229F00DE20C6 /* Build configuration list for PBXProject "Chef Meow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A935A69A2A7A22A200DE20C6 /* Debug */,
+				A935A69B2A7A22A200DE20C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A935A69C2A7A22A200DE20C6 /* Build configuration list for PBXNativeTarget "Chef Meow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A935A69D2A7A22A200DE20C6 /* Debug */,
+				A935A69E2A7A22A200DE20C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A935A69F2A7A22A200DE20C6 /* Build configuration list for PBXNativeTarget "Chef MeowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A935A6A02A7A22A200DE20C6 /* Debug */,
+				A935A6A12A7A22A200DE20C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A935A6A22A7A22A200DE20C6 /* Build configuration list for PBXNativeTarget "Chef MeowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A935A6A32A7A22A200DE20C6 /* Debug */,
+				A935A6A42A7A22A200DE20C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9A6DC312AD6013B00F23026 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A9A6DC332AD6013B00F23026 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		A9A6DC352AD6013B00F23026 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A9A6DC372AD6013B00F23026 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		A9A6DC392AD6013B00F23026 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		A9A6DC3B2AD6013B00F23026 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		A9A6DC3D2AD6013B00F23026 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A9A6DC3F2AD6013B00F23026 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A9A6DC412AD6013B00F23026 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		A9A6DC432AD6013B00F23026 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A9A6DC452AD6013B00F23026 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		A9A6DC472AD6013B00F23026 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		A9A6DC492AD6013B00F23026 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A9A6DC4B2AD6013B00F23026 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		A9A6DC4D2AD6013B00F23026 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A9A6DC4F2AD6013B00F23026 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		A9A6DC512AD6013B00F23026 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		A9A6DC532AD6013B00F23026 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		A9A6DC552AD6013B00F23026 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		A9A6DC572AD6013B00F23026 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		A9A6DC592AD6013B00F23026 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		A9A6DC5B2AD6013B00F23026 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		A9A6DC5D2AD6013B00F23026 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		A9A6DC5F2AD6013B00F23026 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		A9A6DC612AD6013B00F23026 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		A9A6DC632AD6013B00F23026 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A9A6DC652AD6013B00F23026 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9A6DC302AD6013B00F23026 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A935A66A2A7A229F00DE20C6 /* Project object */;
+}
